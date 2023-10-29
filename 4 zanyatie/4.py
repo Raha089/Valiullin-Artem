@@ -1,12 +1,12 @@
 def F(n):
 
-total = 0
+    total = 0
 
-for i in range(N):
-    num = int(input())
-    total += num
+    for i in range(N):
+        num = int(input())
+        total += num
 
-print(total)
+    print(total)
 
 N = int(input())
 
