@@ -1,13 +1,7 @@
-def F(n):
+def F(x):
+    a = []
+    for i in range(x):
+        a.append(int(input()))
+    print(sum(a))
 
-    total = 0
-
-    for i in range(N):
-        num = int(input())
-        total += num
-
-    print(total)
-
-N = int(input())
-
-F(N)
+F(int(input()))
